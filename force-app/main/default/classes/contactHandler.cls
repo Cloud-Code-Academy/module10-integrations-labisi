@@ -1,4 +1,4 @@
-public with sharing class ContactHandler {
+public with sharing class contactHandler {
    // public contactHandler() {
 
    public static void checkDummyJsonId(List<Contact> contacts){
