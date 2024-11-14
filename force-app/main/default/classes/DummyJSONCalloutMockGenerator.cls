@@ -26,6 +26,7 @@ public with sharing class DummyJSONCalloutMockGenerator implements HttpCalloutMo
 		// Check if the request is a POST request
 		if (req.getMethod() == 'POST') {
 			// Return a success response for the POST request
+			//res.setBody('{"id": 1, "status": "success"}');
 			res.setBody('{"status": "success"}');
 		} else {
 			// Return the dummy user details for the GET request
